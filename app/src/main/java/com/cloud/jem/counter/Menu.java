@@ -22,7 +22,7 @@ public class Menu extends ListActivity {
 
         try
         {
-            Class ourClass = Class.forName("com.cloud.jem.counter." + cheese);
+            Class ourClass = Class.forName("com.cloud.jem.counter." + cheesee);
             Intent ourIntent = new Intent(Menu.this, ourClass);
 
             startActivity(ourIntent);
